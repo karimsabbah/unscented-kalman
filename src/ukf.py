@@ -52,7 +52,7 @@ def nearestPD(A):
 
 
 def isPD(B):
-    """Returns true when input is positive-definite, via Cholesky, test"""
+    """Returns true when input is positive-definite, via Cholesky"""
     try:
         _ = np.linalg.cholesky(B)
         return True
